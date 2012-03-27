@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C6545CA1521F76B0063AF66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6545C91521F76B0063AF66 /* UIKit.framework */; };
+		5C6545CC1521F76B0063AF66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6545CB1521F76B0063AF66 /* Foundation.framework */; };
+		5C6545CE1521F76B0063AF66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6545CD1521F76B0063AF66 /* CoreGraphics.framework */; };
+		5C6545D41521F76B0063AF66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C6545D21521F76B0063AF66 /* InfoPlist.strings */; };
+		5C6545D61521F76B0063AF66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6545D51521F76B0063AF66 /* main.m */; };
+		5C6545DA1521F76B0063AF66 /* HowZhiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6545D91521F76B0063AF66 /* HowZhiAppDelegate.m */; };
+		5C6545DD1521F76B0063AF66 /* HowZhiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6545DC1521F76B0063AF66 /* HowZhiViewController.m */; };
+		5C6545E01521F76B0063AF66 /* HowZhiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6545DE1521F76B0063AF66 /* HowZhiViewController.xib */; };
+		5C6545E81521F76B0063AF66 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6545E71521F76B0063AF66 /* SenTestingKit.framework */; };
+		5C6545E91521F76B0063AF66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6545C91521F76B0063AF66 /* UIKit.framework */; };
+		5C6545EA1521F76B0063AF66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6545CB1521F76B0063AF66 /* Foundation.framework */; };
+		5C6545F21521F76C0063AF66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C6545F01521F76C0063AF66 /* InfoPlist.strings */; };
+		5C6545F51521F76C0063AF66 /* HelloiPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6545F41521F76C0063AF66 /* HelloiPhoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C6545EB1521F76C0063AF66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6545BC1521F76A0063AF66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6545C41521F76B0063AF66;
+			remoteInfo = HelloiPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C6545C51521F76B0063AF66 /* HelloiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6545C91521F76B0063AF66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C6545CB1521F76B0063AF66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C6545CD1521F76B0063AF66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C6545D11521F76B0063AF66 /* HelloiPhone-Info.plist */ = {isa = PBXFileReference; path = "HelloiPhone-Info.plist"; sourceTree = "<group>"; };
+		5C6545D31521F76B0063AF66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C6545D51521F76B0063AF66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C6545D71521F76B0063AF66 /* HelloiPhone-Prefix.pch */ = {isa = PBXFileReference; path = "HelloiPhone-Prefix.pch"; sourceTree = "<group>"; };
+		5C6545D81521F76B0063AF66 /* HowZhiAppDelegate.h */ = {isa = PBXFileReference; path = HowZhiAppDelegate.h; sourceTree = "<group>"; };
+		5C6545D91521F76B0063AF66 /* HowZhiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowZhiAppDelegate.m; sourceTree = "<group>"; };
+		5C6545DB1521F76B0063AF66 /* HowZhiViewController.h */ = {isa = PBXFileReference; path = HowZhiViewController.h; sourceTree = "<group>"; };
+		5C6545DC1521F76B0063AF66 /* HowZhiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowZhiViewController.m; sourceTree = "<group>"; };
+		5C6545DF1521F76B0063AF66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HowZhiViewController.xib; sourceTree = "<group>"; };
+		5C6545E61521F76B0063AF66 /* HelloiPhoneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloiPhoneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6545E71521F76B0063AF66 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5C6545EF1521F76C0063AF66 /* HelloiPhoneTests-Info.plist */ = {isa = PBXFileReference; path = "HelloiPhoneTests-Info.plist"; sourceTree = "<group>"; };
+		5C6545F11521F76C0063AF66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C6545F31521F76C0063AF66 /* HelloiPhoneTests.h */ = {isa = PBXFileReference; path = HelloiPhoneTests.h; sourceTree = "<group>"; };
+		5C6545F41521F76C0063AF66 /* HelloiPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloiPhoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6545C21521F76B0063AF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6545CA1521F76B0063AF66 /* UIKit.framework in Frameworks */,
+				5C6545CC1521F76B0063AF66 /* Foundation.framework in Frameworks */,
+				5C6545CE1521F76B0063AF66 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6545E21521F76B0063AF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6545E81521F76B0063AF66 /* SenTestingKit.framework in Frameworks */,
+				5C6545E91521F76B0063AF66 /* UIKit.framework in Frameworks */,
+				5C6545EA1521F76B0063AF66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C6545BA1521F76A0063AF66 = {
+			isa = PBXGroup;
+			children = (
+				5C6545CF1521F76B0063AF66 /* HelloiPhone */,
+				5C6545ED1521F76C0063AF66 /* HelloiPhoneTests */,
+				5C6545C81521F76B0063AF66 /* Frameworks */,
+				5C6545C61521F76B0063AF66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C6545C61521F76B0063AF66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6545C51521F76B0063AF66 /* HelloiPhone.app */,
+				5C6545E61521F76B0063AF66 /* HelloiPhoneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C6545C81521F76B0063AF66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C6545C91521F76B0063AF66 /* UIKit.framework */,
+				5C6545CB1521F76B0063AF66 /* Foundation.framework */,
+				5C6545CD1521F76B0063AF66 /* CoreGraphics.framework */,
+				5C6545E71521F76B0063AF66 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C6545CF1521F76B0063AF66 /* HelloiPhone */ = {
+			isa = PBXGroup;
+			children = (
+				5C6545D81521F76B0063AF66 /* HowZhiAppDelegate.h */,
+				5C6545D91521F76B0063AF66 /* HowZhiAppDelegate.m */,
+				5C6545DB1521F76B0063AF66 /* HowZhiViewController.h */,
+				5C6545DC1521F76B0063AF66 /* HowZhiViewController.m */,
+				5C6545DE1521F76B0063AF66 /* HowZhiViewController.xib */,
+				5C6545D01521F76B0063AF66 /* Supporting Files */,
+			);
+			path = HelloiPhone;
+			sourceTree = "<group>";
+		};
+		5C6545D01521F76B0063AF66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C6545D11521F76B0063AF66 /* HelloiPhone-Info.plist */,
+				5C6545D21521F76B0063AF66 /* InfoPlist.strings */,
+				5C6545D51521F76B0063AF66 /* main.m */,
+				5C6545D71521F76B0063AF66 /* HelloiPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C6545ED1521F76C0063AF66 /* HelloiPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C6545F31521F76C0063AF66 /* HelloiPhoneTests.h */,
+				5C6545F41521F76C0063AF66 /* HelloiPhoneTests.m */,
+				5C6545EE1521F76C0063AF66 /* Supporting Files */,
+			);
+			path = HelloiPhoneTests;
+			sourceTree = "<group>";
+		};
+		5C6545EE1521F76C0063AF66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C6545EF1521F76C0063AF66 /* HelloiPhoneTests-Info.plist */,
+				5C6545F01521F76C0063AF66 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6545C41521F76B0063AF66 /* HelloiPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6545F81521F76C0063AF66 /* Build configuration list for PBXNativeTarget "HelloiPhone" */;
+			buildPhases = (
+				5C6545C11521F76B0063AF66 /* Sources */,
+				5C6545C21521F76B0063AF66 /* Frameworks */,
+				5C6545C31521F76B0063AF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloiPhone;
+			productName = HelloiPhone;
+			productReference = 5C6545C51521F76B0063AF66 /* HelloiPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C6545E51521F76B0063AF66 /* HelloiPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6545FB1521F76C0063AF66 /* Build configuration list for PBXNativeTarget "HelloiPhoneTests" */;
+			buildPhases = (
+				5C6545E11521F76B0063AF66 /* Sources */,
+				5C6545E21521F76B0063AF66 /* Frameworks */,
+				5C6545E31521F76B0063AF66 /* Resources */,
+				5C6545E41521F76B0063AF66 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6545EC1521F76C0063AF66 /* PBXTargetDependency */,
+			);
+			name = HelloiPhoneTests;
+			productName = HelloiPhoneTests;
+			productReference = 5C6545E61521F76B0063AF66 /* HelloiPhoneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C6545BC1521F76A0063AF66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = howzhi.com;
+			};
+			buildConfigurationList = 5C6545BF1521F76A0063AF66 /* Build configuration list for PBXProject "HelloiPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C6545BA1521F76A0063AF66;
+			productRefGroup = 5C6545C61521F76B0063AF66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C6545C41521F76B0063AF66 /* HelloiPhone */,
+				5C6545E51521F76B0063AF66 /* HelloiPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C6545C31521F76B0063AF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6545D41521F76B0063AF66 /* InfoPlist.strings in Resources */,
+				5C6545E01521F76B0063AF66 /* HowZhiViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6545E31521F76B0063AF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6545F21521F76C0063AF66 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C6545E41521F76B0063AF66 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6545C11521F76B0063AF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6545D61521F76B0063AF66 /* main.m in Sources */,
+				5C6545DA1521F76B0063AF66 /* HowZhiAppDelegate.m in Sources */,
+				5C6545DD1521F76B0063AF66 /* HowZhiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6545E11521F76B0063AF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6545F51521F76C0063AF66 /* HelloiPhoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C6545EC1521F76C0063AF66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6545C41521F76B0063AF66 /* HelloiPhone */;
+			targetProxy = 5C6545EB1521F76C0063AF66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C6545D21521F76B0063AF66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6545D31521F76B0063AF66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C6545DE1521F76B0063AF66 /* HowZhiViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6545DF1521F76B0063AF66 /* en */,
+			);
+			name = HowZhiViewController.xib;
+			sourceTree = "<group>";
+		};
+		5C6545F01521F76C0063AF66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6545F11521F76C0063AF66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C6545F61521F76C0063AF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C6545F71521F76C0063AF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C6545F91521F76C0063AF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloiPhone/HelloiPhone-Prefix.pch";
+				INFOPLIST_FILE = "HelloiPhone/HelloiPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C6545FA1521F76C0063AF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloiPhone/HelloiPhone-Prefix.pch";
+				INFOPLIST_FILE = "HelloiPhone/HelloiPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5C6545FC1521F76C0063AF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloiPhone.app/HelloiPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloiPhone/HelloiPhone-Prefix.pch";
+				INFOPLIST_FILE = "HelloiPhoneTests/HelloiPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5C6545FD1521F76C0063AF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloiPhone.app/HelloiPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloiPhone/HelloiPhone-Prefix.pch";
+				INFOPLIST_FILE = "HelloiPhoneTests/HelloiPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6545BF1521F76A0063AF66 /* Build configuration list for PBXProject "HelloiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6545F61521F76C0063AF66 /* Debug */,
+				5C6545F71521F76C0063AF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6545F81521F76C0063AF66 /* Build configuration list for PBXNativeTarget "HelloiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6545F91521F76C0063AF66 /* Debug */,
+				5C6545FA1521F76C0063AF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C6545FB1521F76C0063AF66 /* Build configuration list for PBXNativeTarget "HelloiPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6545FC1521F76C0063AF66 /* Debug */,
+				5C6545FD1521F76C0063AF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C6545BC1521F76A0063AF66 /* Project object */;
+}
